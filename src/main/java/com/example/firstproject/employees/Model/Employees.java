@@ -13,7 +13,6 @@ public class Employees {
         private String name;
         @Column
         private String vorname;
-
         @Column
         private String hausnummer;
         @Column
