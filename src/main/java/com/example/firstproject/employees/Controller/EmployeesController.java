@@ -12,10 +12,9 @@ import java.util.Optional;
 @RestController
 @RequestMapping("api/v1/employees")
 public class EmployeesController {
-    //@Autowired
+    
     private final EmployeesService employeesService;
 
-    @Autowired
     public EmployeesController(EmployeesService employeesService) {
         this.employeesService = employeesService;
     }
